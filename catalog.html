@@ -51,27 +51,37 @@
         <form name="filter" action="/echo" method="get">
           <fieldset>
             <legend>Производители:</legend>
-            <input type="checkbox" name="baxter of california" checked>
-        Baxter of California
-            <input type="checkbox" name="Mr Natty">
-        Mr Natty
-            <input type="checkbox" name="Suavecito" checked>
-        Suavecito
-            <input type="checkbox" name="Malin+Goetz">
-        Malin+Goetz
-            <input type="checkbox" name="Murray’s">
-        Murray’s
-            <input type="checkbox" name="American Crew" checked="">
-        American Crew
+            <div class="form-field">
+              <label><input type="checkbox" name="baxter of california" checked>Baxter of California</label>
+            </div>
+            <div class="form-field">
+              <label><input type="checkbox" name="Mr Natty">Mr Natty</label>
+            </div>
+            <div class="form-field">
+              <label><input type="checkbox" name="Suavecito" checked>Suavecito</label>
+            </div>
+            <div class="form-field">
+              <label><input type="checkbox" name="Malin+Goetz">Malin+Goetz</label>
+            </div>
+            <div class="form-field">
+              <label><input type="checkbox" name="Murray’s">Murray’s</label>
+            </div>
+            <div class="form-field">
+              <label><input type="checkbox" name="American Crew" checked>American Crew</label>
+            </div>
           </fieldset>
           <fieldset>
             <legend>Группы товаров</legend>
-            <input type="radio" name="product-group">
-        Бритвенные принадлежности
-            <input type="radio" name="product-group" checked>
-        Средства для ухода
-            <input type="radio" name="product-group">
-        Аксессуары
+            <div class="form-field">
+              <label><input type="radio" name="product-group">Бритвенные принадлежности</label>
+            </div>
+            <div class="form-field">
+              <label></label><input type="radio" name="product-group" checked>Средства для ухода</label>
+            </div>
+            <div class="form-field">
+              <label><input type="radio" name="product-group">
+        Аксессуары</label>
+            </div>
           </fieldset>
           <button class="btn" type="submit">Показать</button>
         </form>

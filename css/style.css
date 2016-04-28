@@ -1,6 +1,4 @@
 body {
-	width: 1200px;
-	height:1173px;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
@@ -49,14 +47,41 @@ h2 {
 	width: 620px;
 	outline: 2px solid yellow;
 }
+.main-navigation ul {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	list-style: none;
+}
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	margin-right: 40px;
+}
 .user-block {
 	float: right;
 	width: 140px;
 	outline: 2px solid yellow;
 }
 .main-menu {
-margin-bottom: 60px;
-outline: 2px solid yellow;
+	outline: 2px solid yellow;
+}
+.breadcrumbs {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+	margin-bottom: 60px;
+}
+.breadcrumbs li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.breadcrumbs li:last-child {
+	margin-right: 0;
 }
 .sidebar {
 	float: left;
@@ -90,8 +115,23 @@ outline: 2px solid yellow;
 .gallery-paginator {
 	margin-bottom: 50px;
 }
+.gallery-paginator-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+}
+ .gallery-paginator-list li {
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	font-size: 14px;
+ 	margin-right: 5px;
+ }
+ .gallery-paginator-list li:last-child {
+margin-right: 0;
+ }
 .main-footer {
-  margin-top: 65px;
+  
   padding-top: 60px;
   padding-bottom: 40px;
   outline: 2px solid red;
